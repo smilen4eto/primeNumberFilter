@@ -1,0 +1,19 @@
+micronaut:
+  application:
+    name: primeNumberFilter
+netty:
+  default:
+    allocator:
+      max-order: 3
+kafka:
+    bootstrap:
+        servers: localhost:9092
+app:
+  max-primes: 4
+  max-numbers-per-second: 5
+  max-random-numbers: 100
+  primes-file: prime_numbers.csv
+  random-numbers-file: random_numbers.csv
+
+
+ 
